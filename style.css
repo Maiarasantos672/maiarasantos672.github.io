@@ -211,6 +211,12 @@ label span{
 
 /* @MEDIA */
 
+@media only screen and (max-width: 767px){
+    body{
+        text-align: justify;
+    }
+}
+
 @media only screen and (min-width: 768px){
     .linha{
         display: flex;
