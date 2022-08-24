@@ -43,6 +43,20 @@ header .coluna-direita{
     flex-basis: 60%;
     text-align: center;
 }
+.menu__item {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+header .coluna ul li .menu__link {
+    color: #8B93AB;
+    text-decoration: none;
+}
+
+header .coluna ul li .menu__link:hover {
+    color: #000000;
+}
 header .coluna img{
     max-width: 100%;
 }
@@ -211,13 +225,10 @@ label span{
 
 /* @MEDIA */
 
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 768px){
     body{
         text-align: justify;
     }
-}
-
-@media only screen and (min-width: 768px){
     .linha{
         display: flex;
         flex-wrap: wrap;
@@ -230,6 +241,9 @@ label span{
     header .coluna img{
         max-width: 250px;
         border-radius: 100%;
+    }
+    header .menu__item {
+        padding: 0 1em 0 0;
     }
     .container{
         width: 100%;
