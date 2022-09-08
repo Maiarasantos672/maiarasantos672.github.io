@@ -144,7 +144,14 @@ main .coluna section ul li strong{
     margin: 5px 0 10px;
     display: inline-block;
 }
-
+.link-projetos {
+    color: #8B93AB;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.link-projetos:hover {
+    color: #000000;
+}
 
 /* EXTRAS */
 
